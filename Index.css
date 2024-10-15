@@ -1,0 +1,56 @@
+.info-1{
+    background-color: rgb(216, 216, 230);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10px;
+}
+.cont-1{
+    height: 70px;
+}
+.info{
+    /* background-color: orange; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius:5px;   
+}
+.logo{
+    border-radius: 40px;
+}
+
+.menu-tab a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    }
+
+
+.menu-tab button {
+    background-color: rgb(247, 251, 255);
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+
+  .sign-up a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    } 
+  
+    .sign-up button {
+        background-color: rgb(247, 251, 255);
+        text-decoration: none;
+        border: none;
+        outline: none;
+      }
+
+      .display img{
+        width: 100%px; 
+        height: 150px; 
+      
+      }
