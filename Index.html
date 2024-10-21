@@ -10,53 +10,106 @@
 </head>
 <title>My First Assignment On PORA FrontEnd Course</title>
 <body>
-    <div cont-1>
-        <div class="info-1">
-            <img src="./Assets/call.png" alt="call logo">
-            <h3>+2347032398646</h3>
-            <img src="./Assets/envelope.jpeg" alt="envelope">
-           
-        </div>
-    </div>
-    <div>
-        <div class = "info"> 
-            <div class = "logo">
-                 <a href="#home"><img src="./Assets/logo.png" alt="logo"></a> 
-            </div>
-                <div class = "menu-tab">
-                    <button><a href="#">Home</a></button>
-                    <button><a href="#">Collection</a></button>
-                    <button><a href="#">Shoes</a></button>
-                    <button><a href="#">Boots</a></button>
-                    <button><a href="#">Climbing</a></button>
-                    <button><a href="#">Pages</a></button>
-                </div>  
-                <div class="sign-up">
-                    <a href="#"><img src="./Assets/search.png" alt=""></a>
-                    <a href="#"><img src="./Assets/user.png" alt=""></a>
-                    <a href="#"><img src="./Assets/ccart.png" alt=""></a>
+     <div>
+        <section class = "stick-container">
+                <div class="info-1">
+                    <img src="./Assets/call.png" alt="call logo">
+                    <h3>+2347032398646</h3>
+                    <img src="./Assets/envelope.jpeg" alt="envelope">
                 </div>
-            </div>
+                <div class = "info"> 
+                    <div class = "logo">
+                        <a href="#home"><img src="./Assets/logo.png" alt="logo"></a> 
+                    </div>
+                    <div class = "menu-tab">
+                        <button><a href="#">Home</a></button>
+                        <button><a href="#">Collection</a></button>
+                        <button><a href="#">Shoes</a></button>
+                        <button><a href="#">Boots</a></button>
+                        <button><a href="#">Climbing</a></button>
+                        <button><a href="#">Pages</a></button>
+                    </div>  
+                    <div class="sign-up">
+                        <a href="#"><img src="./Assets/search.png" alt=""></a>
+                        <a href="#"><img src="./Assets/user.png" alt=""></a>
+                        <a href="#"><img src="./Assets/ccart.png" alt=""></a>
+                    </div>   
+                </div>
+        </section> 
+      
             <div>
-                <h2 class = "feature">FEATURED PRODUCTS</h2> 
-            <div class="slide-album">          
-                <div class ="display">
-                    <a href=""><img src="./Assets/collections (1).png" alt="shoe picture">$200</a>
-                    <a href=""><img src="./Assets/collections (2).png" alt="shoe picture">$200</a>
-                    <a href=""><img src="./Assets/collections (3).png" alt="shoe picture">$200</a>
-                    <a href=""><img src="./Assets/collections (4).png" alt="shoe picture">$200</a>
-                    <a href=""><img src="./Assets/collections (5).png" alt="shoe picture">$200</a>
-                    <!-- <a href=""><img src="./Assets/istockphoto-2029879472-1024x1024.jpg" alt="shoe picture">$200</a> -->
-                    <a href=""><img src="./Assets/Screenshot 2024-10-11 182919.png" alt="shoe picture">$200</a>
-                    <a href=""><img src="./Assets/photo-1542291026-7eec264c27ff.jpeg" alt="shoe picture">$200</a>
-                </div>
+                <h2 class = "feature">FEATURED PRODUCTS</h2>           
+                    <!-- <div class ="display">
+                         <img src="./Assets/collections (1).png" alt="shoe picture" style="width:100%"> 
+                        <img src="./Assets/collections (2).png" alt="shoe picture" style="width:100%">
+                        <img src="./Assets/collections (3).png" alt="shoe picture" style="width:100%">
+                        <a href=""><img src="./Assets/collections (4).png" alt="shoe picture">$200</a>
+                        <a href=""><img src="./Assets/collections (5).png" alt="shoe picture">$200</a>
+                        <a href=""><img src="./Assets/istockphoto-2029879472-1024x1024.jpg" alt="shoe picture">$200</a> -->
+                        <!-- <a href=""><img src="./Assets/Screenshot 2024-10-11 182919.png" alt="shoe picture">$200</a>
+                        <a href=""><img src="./Assets/photo-1542291026-7eec264c27ff.jpeg" alt="shoe picture">$200</a>
+                    </div> -->
             </div>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="./Assets/collections (1).png" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="./Assets/collections (2).png" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="./Assets/collections (3).png" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="./Assets/collections (4).png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="./Assets/collections (5).png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="./Assets/collections (6).png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                  </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
             <div>
                 <p>&copy; 2024 Ajide Olabisi James/The Day of Fresh Beginning. All rights reserved. <a href="#">Terms of Use</a></p>
             </div>
-    
-    </div>
+        </div>
 </body>
+
+
+
+
 <!-- 
 …or create a new repository on the command line
 echo "# tskn" >> README.md
