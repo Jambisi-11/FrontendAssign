@@ -160,3 +160,65 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.artitl{
+  margin-left: 60px;
+}
+div.gallery {
+  /* border: 1px solid #ccc; */
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+* {
+  box-sizing: border-box;
+}
+.all-arrival{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.NewArrivals {
+  padding: 0 10px;
+  /* float: left; */
+  width: 20%;
+  
+}
+.NewArrivals h3{
+  margin: 7px;
+}
+
+@media only screen and (max-width: 700px) {
+  .NewArrivals {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .NewArrivals {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
