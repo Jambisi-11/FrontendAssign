@@ -231,8 +231,8 @@ div.desc {
 .best {
   text-align: center;
   margin: 0 auto;
-}
 
+}
 
 
 .artitl-1{
@@ -270,7 +270,7 @@ div.desc-1 {
 
 .bestArrivals {
   padding: 0 10px;
-  /* float: left; */
+  float: left; */
   width: 16%; 
 }
 
@@ -278,6 +278,48 @@ div.desc-1 {
   margin: 7px;
 }
 
+
+.best-nav ul{
+  text-decoration: none;
+  }
+  
+  .best li {
+    display: inline;
+  }
+  
+  .best li {
+    float: left;
+  }
+  
+.best ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 17.5%;
+    text-align: center;
+    
+    
+    
+    /* background-color: #333; */
+  }
+  
+  
+  .best li a {
+    display: block;
+    color: rgb(17, 4, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .best li a:hover {
+    background-color: #0e0101;
+    color: #fefefe;
+    border-radius:  10px; 
+  }
 @media only screen and (max-width: 700px) {
   .bestArrivals-1 {
     width: 49.99999%;
@@ -291,52 +333,11 @@ div.desc-1 {
   }
 }
 
-.clearfix:after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-.best {}
-.best-nav ui{
-text-decoration: none;
-}
-
-.best li {
-  display: inline;
-}
-
-li {
-  float: left;
-}
-
-.best ul {
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-  margin: 20px auto;
-  width: 17.5%;
-  text-align: center;
-  
-  
-  
-  /* background-color: #333; */
-}
 
 
-.best li a {
-  display: block;
-  color: rgb(17, 4, 4);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bolder;
-}
 
-/* Change the link color to #111 (black) on hover */
-.best li a:hover {
-  background-color: #0e0101;
-  color: #fefefe;
-  border-radius:  10px;
-
-  
-}
