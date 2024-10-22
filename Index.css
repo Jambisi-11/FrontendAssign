@@ -296,7 +296,7 @@ div.desc-1 {
     padding: 0;
     overflow: hidden;
     margin: 20px auto;
-    width: 17.5%;
+    width: 21%;
     text-align: center;
     
     
@@ -339,5 +339,18 @@ div.desc-1 {
   clear: both;
 }
 
-
+div.foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: ;
+  justify-content: space-between;
+  padding: ;
+  
+}
+.customer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
 
